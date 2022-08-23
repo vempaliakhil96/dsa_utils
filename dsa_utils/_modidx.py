@@ -33,7 +33,6 @@ d = { 'settings': { 'allowed_cell_metadata_keys': '',
                 'tst_flags': 'notest',
                 'user': 'vempaliakhil96',
                 'version': '0.0.1'},
-  'syms': { 'dsa_utils.core': {'dsa_utils.core.foo': 'https://vempaliakhil96.github.io/dsa_utils/core.html#foo'},
-            'dsa_utils.linkedlist': { 'dsa_utils.linkedlist.ListNode': 'https://vempaliakhil96.github.io/dsa_utils/linkedlist.html#listnode',
+  'syms': { 'dsa_utils.linkedlist': { 'dsa_utils.linkedlist.ListNode': 'https://vempaliakhil96.github.io/dsa_utils/linkedlist.html#listnode',
                                       'dsa_utils.linkedlist.make_linked_list': 'https://vempaliakhil96.github.io/dsa_utils/linkedlist.html#make_linked_list',
                                       'dsa_utils.linkedlist.reverse_linked_list': 'https://vempaliakhil96.github.io/dsa_utils/linkedlist.html#reverse_linked_list'}}}
