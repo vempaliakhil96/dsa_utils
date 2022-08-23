@@ -12,4 +12,6 @@ d = { 'settings': { 'branch': 'master',
                                       'dsa_utils.linkedlist.ListNode.__str__': ( 'https://vempaliakhil96.github.io/dsa_utils/linkedlist.html#__str__',
                                                                                  'https://github.com/vempaliakhil96/dsa_utils//blob/master/dsa_utils/linkedlist.py#L14'),
                                       'dsa_utils.linkedlist.make_linked_list': ( 'https://vempaliakhil96.github.io/dsa_utils/linkedlist.html#make_linked_list',
-                                                                                 'https://github.com/vempaliakhil96/dsa_utils//blob/master/dsa_utils/linkedlist.py#L25')}}}
+                                                                                 'https://github.com/vempaliakhil96/dsa_utils//blob/master/dsa_utils/linkedlist.py#L25'),
+                                      'dsa_utils.linkedlist.reverse_linked_list': ( 'https://vempaliakhil96.github.io/dsa_utils/linkedlist.html#reverse_linked_list',
+                                                                                    'https://github.com/vempaliakhil96/dsa_utils//blob/master/dsa_utils/linkedlist.py#L39')}}}
