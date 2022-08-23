@@ -18,8 +18,6 @@ website:
   title: "dsa_utils"
   site-url: "https://vempaliakhil96.github.io/dsa_utils/"
   description: ""
-  execute: 
-    enabled: false
   twitter-card: true
   open-graph: true
   reader-mode: true

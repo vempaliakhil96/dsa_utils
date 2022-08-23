@@ -3,7 +3,7 @@
 # %% auto 0
 __all__ = ['ListNode', 'make_linked_list']
 
-# %% ../nbs/00_linkedlist.ipynb 2
+# %% ../nbs/00_linkedlist.ipynb 3
 class ListNode:
     def __init__(self, 
                  val: int, #Value of the node
@@ -21,7 +21,7 @@ class ListNode:
     
     __repr__ = __str__
 
-# %% ../nbs/00_linkedlist.ipynb 3
+# %% ../nbs/00_linkedlist.ipynb 4
 def make_linked_list(lst):
     """
     This function takes in a list of integers and returns a head ptr of linked list `ListNode` 
