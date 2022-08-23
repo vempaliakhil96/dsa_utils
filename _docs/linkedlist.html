@@ -195,6 +195,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <li><a href="#listnode" id="toc-listnode" class="nav-link active" data-scroll-target="#listnode">ListNode</a></li>
   <li><a href="#make_linked_list" id="toc-make_linked_list" class="nav-link" data-scroll-target="#make_linked_list">make_linked_list</a></li>
   <li><a href="#reverse_linked_list" id="toc-reverse_linked_list" class="nav-link" data-scroll-target="#reverse_linked_list">reverse_linked_list</a></li>
+  <li><a href="#make_random_linked_list" id="toc-make_random_linked_list" class="nav-link" data-scroll-target="#make_random_linked_list">make_random_linked_list</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/vempaliakhil96/dsa_utils/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -258,10 +259,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <pre><code> make_linked_list (lst)</code></pre>
 </blockquote>
 <p>This function takes in a list of integers and returns a head ptr of linked list <code>ListNode</code></p>
-<div class="cell" data-execution_count="4">
+<div class="cell">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>ll <span class="op">=</span> make_linked_list([<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">1</span>,<span class="dv">3</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell" data-execution_count="5">
+<div class="cell">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(ll)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>1--&gt;2--&gt;1--&gt;2--&gt;1--&gt;3--&gt;</code></pre>
@@ -275,17 +276,49 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <pre><code> reverse_linked_list (ll:__main__.ListNode)</code></pre>
 </blockquote>
 <p>For a given linked list, reverse the list and return it’s head pointer</p>
-<div class="cell" data-execution_count="7">
+<div class="cell">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>ll <span class="op">=</span> make_linked_list([<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>])</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(ll)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>1--&gt;2--&gt;3--&gt;</code></pre>
 </div>
 </div>
-<div class="cell" data-execution_count="8">
+<div class="cell">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>reverse_linked_list(ll)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="8">
+<div class="cell-output cell-output-display">
 <pre><code>3--&gt;2--&gt;1--&gt;</code></pre>
+</div>
+</div>
+<hr>
+</section>
+<section id="make_random_linked_list" class="level3">
+<h3 class="anchored" data-anchor-id="make_random_linked_list">make_random_linked_list</h3>
+<blockquote class="blockquote">
+<pre><code> make_random_linked_list (size:int=None)</code></pre>
+</blockquote>
+<p>Make a random linked list of size [1-1000]</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Type</strong></th>
+<th><strong>Default</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>size</td>
+<td>int</td>
+<td>None</td>
+<td>You can specify the size if you want</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>make_random_linked_list(<span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<pre><code>436637--&gt;921775--&gt;989828--&gt;632712--&gt;801120--&gt;362495--&gt;1153--&gt;636032--&gt;586361--&gt;800895--&gt;</code></pre>
 </div>
 </div>
 
