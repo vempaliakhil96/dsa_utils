@@ -2,8 +2,15 @@
   {
     "objectID": "nbs/linkedlist.html",
     "href": "nbs/linkedlist.html",
-    "title": "rough",
+    "title": "dsa_utils",
     "section": "",
-    "text": "make_ll\n\n make_ll (lst)\n\n\n\n\nListNode\n\n ListNode (val=0, next=None)\n\nInitialize self. See help(type(self)) for accurate signature.\n\nll = make_ll([1,2,1,2,1,3])\n\n\nprint(ll)\n\n1-->2-->1-->2-->1-->3-->"
+    "text": "ListNode\n\n ListNode (val:int, next=None)\n\nInitialize self. See help(type(self)) for accurate signature.\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\nval\nint\n\nValue of the node\n\n\nnext\nNoneType\nNone\nPointer to the next node\n\n\n\n\n\nmake_linked_list\n\n make_linked_list (lst)\n\nThis function takes in a list of integers and returns a head ptr of linked list ListNode\n\nll = make_linked_list([1,2,1,2,1,3])\n\n\nprint(ll)\n\n1-->2-->1-->2-->1-->3-->\n\n\n\n\n\nreverse_linked_list\n\n reverse_linked_list (ll:__main__.ListNode)\n\nFor a given linked list, reverse the list and return it’s head pointer\n\nll = make_linked_list([1,2,3])\nprint(ll)\n\n1-->2-->3-->\n\n\n\nreverse_linked_list(ll)\n\n3-->2-->1-->"
+  },
+  {
+    "objectID": "nbs/index.html",
+    "href": "nbs/index.html",
+    "title": "dsa_utils",
+    "section": "",
+    "text": "This repo will get continously updated to have all the helper utils for different data structures typically required in for solving DSA problems\n1. LinkedList\nTODO Add support for graphs and trees"
   }
 ]

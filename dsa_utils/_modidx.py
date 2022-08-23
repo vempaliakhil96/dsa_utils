@@ -17,12 +17,12 @@ d = { 'settings': { 'allowed_cell_metadata_keys': '',
                 'git_url': 'https://github.com/vempaliakhil96/dsa_utils',
                 'jupyter_hooks': 'False',
                 'keywords': 'nbdev jupyter notebook python',
-                'kwargs': "{'lib_name': None, 'branch': 'master', 'git_url': 'https://github.com/vempaliakhil96/rough', 'custom_sidebar': False, 'nbs_path': "
-                          "'.', 'lib_path': 'rough', 'doc_path': '_docs', 'tst_flags': '', 'version': '0.0.1', 'doc_host': 'https://vempaliakhil96.github.io', "
-                          "'doc_baseurl': '/rough', 'keywords': 'nbdev jupyter notebook python', 'license': 'apache2', 'copyright': None, 'status': '3', "
-                          "'min_python': '3.7', 'audience': 'Developers', 'language': 'English', 'recursive': False, 'black_formatting': False, 'readme_nb': "
-                          "'index.ipynb', 'title': 'rough', 'allowed_metadata_keys': '', 'allowed_cell_metadata_keys': '', 'jupyter_hooks': False, "
-                          "'clean_ids': False}",
+                'kwargs': "{'lib_name': None, 'branch': 'master', 'git_url': 'https://github.com/vempaliakhil96/dsa_utils', 'custom_sidebar': False, "
+                          "'nbs_path': '.', 'lib_path': 'dsa_utils', 'doc_path': '_docs', 'tst_flags': '', 'version': '0.0.1', 'doc_host': "
+                          "'https://vempaliakhil96.github.io', 'doc_baseurl': '/dsa_utils', 'keywords': 'nbdev jupyter notebook python', 'license': 'apache2', "
+                          "'copyright': None, 'status': '3', 'min_python': '3.7', 'audience': 'Developers', 'language': 'English', 'recursive': False, "
+                          "'black_formatting': False, 'readme_nb': 'index.ipynb', 'title': 'dsa_utils', 'allowed_metadata_keys': '', "
+                          "'allowed_cell_metadata_keys': '', 'jupyter_hooks': False, 'clean_ids': False}",
                 'language': 'English',
                 'lib_name': 'dsa_utils',
                 'lib_path': 'dsa_utils',
@@ -32,9 +32,10 @@ d = { 'settings': { 'allowed_cell_metadata_keys': '',
                 'readme_nb': 'index.ipynb',
                 'recursive': 'False',
                 'status': '3',
-                'title': 'rough',
+                'title': 'dsa_utils',
                 'tst_flags': '',
                 'user': 'vempaliakhil96',
                 'version': '0.0.1'},
   'syms': { 'dsa_utils.linkedlist': { 'dsa_utils.linkedlist.ListNode': 'https://vempaliakhil96.github.io/linkedlist.html#listnode',
-                                      'dsa_utils.linkedlist.make_ll': 'https://vempaliakhil96.github.io/linkedlist.html#make_ll'}}}
+                                      'dsa_utils.linkedlist.make_linked_list': 'https://vempaliakhil96.github.io/linkedlist.html#make_linked_list',
+                                      'dsa_utils.linkedlist.reverse_linked_list': 'https://vempaliakhil96.github.io/linkedlist.html#reverse_linked_list'}}}

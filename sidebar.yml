@@ -3,4 +3,5 @@ website:
     contents:
       - section: nbs
         contents:
+          - nbs/index.ipynb
           - nbs/00_linkedlist.ipynb

@@ -15,7 +15,7 @@ format:
     toc-depth: 4
 
 website:
-  title: "rough"
+  title: "dsa_utils"
   site-url: "https://vempaliakhil96.github.io/dsa_utils"
   description: "A simple library of DSA utils"
   execute: 
