@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "nbs/linkedlist.html",
+    "href": "nbs/linkedlist.html",
+    "title": "rough",
+    "section": "",
+    "text": "make_ll\n\n make_ll (lst)\n\n\n\n\nListNode\n\n ListNode (val=0, next=None)\n\nInitialize self. See help(type(self)) for accurate signature.\n\nll = make_ll([1,2,1,2,1,3])\n\n\nprint(ll)\n\n1-->2-->1-->2-->1-->3-->"
+  }
+]

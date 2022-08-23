@@ -1,0 +1,6 @@
+website:
+  sidebar:
+    contents:
+      - section: nbs
+        contents:
+          - nbs/00_linkedlist.ipynb
