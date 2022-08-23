@@ -194,6 +194,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <ul>
   <li><a href="#listnode" id="toc-listnode" class="nav-link active" data-scroll-target="#listnode">ListNode</a></li>
   <li><a href="#make_linked_list" id="toc-make_linked_list" class="nav-link" data-scroll-target="#make_linked_list">make_linked_list</a></li>
+  <li><a href="#reverse_linked_list" id="toc-reverse_linked_list" class="nav-link" data-scroll-target="#reverse_linked_list">reverse_linked_list</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/vempaliakhil96/dsa_utils/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -257,39 +258,33 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <pre><code> make_linked_list (lst)</code></pre>
 </blockquote>
 <p>This function takes in a list of integers and returns a head ptr of linked list <code>ListNode</code></p>
-<div class="cell">
+<div class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>ll <span class="op">=</span> make_linked_list([<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">1</span>,<span class="dv">3</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="cell">
+<div class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(ll)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>1--&gt;2--&gt;1--&gt;2--&gt;1--&gt;3--&gt;</code></pre>
 </div>
 </div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> reverse_linked_list(ll: ListNode):</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co">    For a given linked list, reverse the list and return it's head pointer</span></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    curr <span class="op">=</span> ll</span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    prev <span class="op">=</span> <span class="va">None</span></span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> curr:</span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>        t <span class="op">=</span> curr.<span class="bu">next</span></span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>        curr.<span class="bu">next</span> <span class="op">=</span> prev</span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>        prev <span class="op">=</span> curr</span>
-<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>        curr <span class="op">=</span> t</span>
-<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> prev</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
+<hr>
+</section>
+<section id="reverse_linked_list" class="level3">
+<h3 class="anchored" data-anchor-id="reverse_linked_list">reverse_linked_list</h3>
+<blockquote class="blockquote">
+<pre><code> reverse_linked_list (ll:__main__.ListNode)</code></pre>
+</blockquote>
+<p>For a given linked list, reverse the list and return it’s head pointer</p>
+<div class="cell" data-execution_count="7">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>ll <span class="op">=</span> make_linked_list([<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>])</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(ll)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>1--&gt;2--&gt;3--&gt;</code></pre>
 </div>
 </div>
-<div class="cell">
+<div class="cell" data-execution_count="8">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>reverse_linked_list(ll)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display">
+<div class="cell-output cell-output-display" data-execution_count="8">
 <pre><code>3--&gt;2--&gt;1--&gt;</code></pre>
 </div>
 </div>

@@ -4,7 +4,7 @@
     "href": "linkedlist.html",
     "title": "LinkedLists",
     "section": "",
-    "text": "ListNode\n\n ListNode (val:int, next=None)\n\nInitialize self. See help(type(self)) for accurate signature.\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\nval\nint\n\nValue of the node\n\n\nnext\nNoneType\nNone\nPointer to the next node\n\n\n\n\n\n\nmake_linked_list\n\n make_linked_list (lst)\n\nThis function takes in a list of integers and returns a head ptr of linked list ListNode\n\nll = make_linked_list([1,2,1,2,1,3])\n\n\nprint(ll)\n\n1-->2-->1-->2-->1-->3-->\n\n\n\ndef reverse_linked_list(ll: ListNode):\n    \"\"\"\n    For a given linked list, reverse the list and return it's head pointer\n    \"\"\"\n    curr = ll\n    prev = None\n    while curr:\n        t = curr.next\n        curr.next = prev\n        prev = curr\n        curr = t\n    return prev\n\n\nll = make_linked_list([1,2,3])\nprint(ll)\n\n1-->2-->3-->\n\n\n\nreverse_linked_list(ll)\n\n3-->2-->1-->"
+    "text": "ListNode\n\n ListNode (val:int, next=None)\n\nInitialize self. See help(type(self)) for accurate signature.\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\nval\nint\n\nValue of the node\n\n\nnext\nNoneType\nNone\nPointer to the next node\n\n\n\n\n\n\nmake_linked_list\n\n make_linked_list (lst)\n\nThis function takes in a list of integers and returns a head ptr of linked list ListNode\n\nll = make_linked_list([1,2,1,2,1,3])\n\n\nprint(ll)\n\n1-->2-->1-->2-->1-->3-->\n\n\n\n\n\nreverse_linked_list\n\n reverse_linked_list (ll:__main__.ListNode)\n\nFor a given linked list, reverse the list and return it’s head pointer\n\nll = make_linked_list([1,2,3])\nprint(ll)\n\n1-->2-->3-->\n\n\n\nreverse_linked_list(ll)\n\n3-->2-->1-->"
   },
   {
     "objectID": "index.html",
